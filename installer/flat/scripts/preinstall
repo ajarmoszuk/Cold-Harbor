@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Remove any existing installation
+if [ -d "$HOME/Library/Screen Savers/ColdHarbor.saver" ]; then
+    rm -rf "$HOME/Library/Screen Savers/ColdHarbor.saver"
+fi
+
+exit 0 

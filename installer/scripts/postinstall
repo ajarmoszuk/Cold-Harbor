@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Create the destination directory if it doesn't exist
+mkdir -p "$HOME/Library/Screen Savers"
+
+# Copy the screensaver to the user's Screen Savers directory
+cp -R "/tmp/ColdHarborInstall/ColdHarbor.saver" "$HOME/Library/Screen Savers/"
+
+# Set proper ownership and permissions
+chown -R $USER "$HOME/Library/Screen Savers/ColdHarbor.saver"
+chmod -R 755 "$HOME/Library/Screen Savers/ColdHarbor.saver"
+
+exit 0 
