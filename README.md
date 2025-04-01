@@ -46,7 +46,7 @@ A macOS screensaver inspired by the TV show "Severance" displaying the text "hel
 3. Select the "Screen Saver" tab
 4. Find and select "ColdHarbor" in the list of screensavers
 5. Click the "Screen Saver Options..." button to customize:
-   - Message text (default: "l o M s . C o b e l")
+   - Message text (default: "C o l d  H a r b o r")
    - Animation speed
    - Text color
    - Glow color
